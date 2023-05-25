@@ -92,7 +92,7 @@ class MyApp extends StatelessWidget {
           appBarTheme: const AppBarTheme(backgroundColor: bgColor, elevation: 0),
           scaffoldBackgroundColor: bgColor,
         ),
-        home: HomeScreen(),
+        home: Login(title: 'QA Web Portal'),
       ),
     );
   } 
